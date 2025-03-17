@@ -116,6 +116,12 @@
 			<version>1.14.0</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.30</version>  <!-- Use the latest version -->
+			<scope>provided</scope>
+		</dependency>
 
 	</dependencies>
 
@@ -132,10 +138,11 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M5</version>
 				<configuration>
-				<compilerArgs>
-                    <arg>--add-opens</arg>
-                    <arg>jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>
-                </compilerArgs>
+					<compilerArgs>
+						<arg>--add-opens</arg>
+						<arg>
+							jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>
+					</compilerArgs>
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>  <!-- Path to
 						TestNG suite file -->
