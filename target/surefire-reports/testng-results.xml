@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-17T13:06:22 IST" name="Suite" finished-at="2025-03-17T13:07:03 IST" duration-ms="41094">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestNGRunner.TestRunner$TestNGAppRunner@75db5df9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-17T13:06:22 IST" name="Test" finished-at="2025-03-17T13:07:03 IST" duration-ms="41094">
+      <class name="TestNGRunner.TestRunner$TestNGAppRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestNGRunner.TestRunner$TestNGAppRunner@75db5df9]" started-at="2025-03-17T13:06:22 IST" name="setUpClass" finished-at="2025-03-17T13:06:24 IST" duration-ms="1147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3d512652]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestNGRunner.TestRunner$TestNGAppRunner@75db5df9]" started-at="2025-03-17T13:06:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T13:06:34 IST" duration-ms="10761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["saucedemo checkout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["saucedemo Checkout scenario"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestNGRunner.TestRunner$TestNGAppRunner@75db5df9]" started-at="2025-03-17T13:06:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T13:06:39 IST" duration-ms="5011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["saucedemo Dashboard"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["saucedemo Dashboard scenario"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestNGRunner.TestRunner$TestNGAppRunner@75db5df9]" started-at="2025-03-17T13:06:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T13:06:44 IST" duration-ms="4714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to saucedemo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["saucedemo Login scenario"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestNGRunner.TestRunner$TestNGAppRunner@75db5df9]" started-at="2025-03-17T13:06:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T13:06:50 IST" duration-ms="5803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["InvalidEmail to saucedemo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["saucedemo Login scenario"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestNGRunner.TestRunner$TestNGAppRunner@75db5df9]" started-at="2025-03-17T13:06:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T13:06:54 IST" duration-ms="4160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["InvalidPass to saucedemo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["saucedemo Login scenario"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestNGRunner.TestRunner$TestNGAppRunner@75db5df9]" started-at="2025-03-17T13:06:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T13:06:58 IST" duration-ms="4378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["InvalidCredential to saucedemo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["saucedemo Login scenario"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestNGRunner.TestRunner$TestNGAppRunner@75db5df9]" started-at="2025-03-17T13:06:58 IST" name="tearDownClass" finished-at="2025-03-17T13:07:03 IST" duration-ms="5003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestNGRunner.TestRunner$TestNGAppRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
